@@ -3,7 +3,5 @@ pull_request_rules:
     conditions:
       - "#approved-reviews-by>=1"
     actions:
-      merge:
-        method: merge
         comment:
-          message: "This pull request is now in conflict! @{{ author }} can you fix it? 🙏"
+            message: "This pull request is now in conflict! @{{ author }} can you fix it? 🙏"
