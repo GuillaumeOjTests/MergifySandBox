@@ -4,4 +4,4 @@ pull_request_rules:
       - "#approved-reviews-by>=1"
     actions:
         comment:
-            message: "This pull request is now in conflict! @{{ author }} can you fix it? 🙏"
+            message: "This pull request is now in conflict! @{{ author }} can you fix it? 🙏 хорошо́"
