@@ -5,3 +5,10 @@ pull_request_rules:
     actions:
       comment: 
         message: "Test test 🦄"
+  - name: Remove label conflict
+    conditions:
+      - -conflict
+    actions:
+      lanel: 
+        remove:
+          - conflict:
