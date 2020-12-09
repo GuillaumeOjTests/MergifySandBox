@@ -5,3 +5,6 @@ pull_request_rules:
     actions:
       comment: 
         message: "Test test 🦄"
+      assign:
+        add_users:
+          - "{{approved_reviews_by}}"
